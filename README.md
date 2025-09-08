@@ -1,0 +1,1 @@
+# regisztracio-20250908
