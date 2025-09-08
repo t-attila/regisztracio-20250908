@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="stilus.css">
+  <title>Regisztráció</title>
+  <script src="szkript.js"></script>
+</head>
+<body>
+  <h1>Felhasználói regisztráció</h1>
+  <div class="error">
+    <!-- ide kell írni a hibaüzneteket -->
+  </div>
+  <form action="#">
+    <fieldset>
+      <legend>Regisztráció</legend>
+      <label for="login">Felhasználónév</label>
+      <input type="text" id="login" name="login">
+      <label for="pw">Jelszó</label>
+      <input type="password" name="pw" id="pw">
+      <label for="repw">Jelszó újra</label>
+      <input type="password" name="repw" id="repw">
+      <label for="email">E-mail</label>
+      <input type="email" name="email" id="email">
+      <label for="telepules">Lakóhely</label>
+      <select name="telepules" id="telepules">
+        <!-- ide kell betölteni a település tömböt -->
+      </select>
+      <button type="submit">Regisztrálás</button>
+    </fieldset>
+  </form>
+  <div id="user">
+    <!-- helyes regisztráció után ide írja ki a felhasználói adatokat -->
+  </div>
+</body>
+</html>
